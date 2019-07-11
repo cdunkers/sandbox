@@ -1,0 +1,19 @@
+// the configured options and settings for sandbox
+#define sandbox_VERSION_MAJOR @sandbox_VERSION_MAJOR@
+#define sandbox_VERSION_MINOR @sandbox_VERSION_MINOR@
+#define sandbox_VERSION_PATCH @sandbox_VERSION_PATCH@
+
+#ifndef CONFIG_H_IN
+#define CONFIG_H_IN
+
+#include <iostream>
+
+void PrintVersion()
+{
+    std::cout << "VERSION: " 
+              << sandbox_VERSION_MAJOR << "."
+              << sandbox_VERSION_MINOR << "."
+              << sandbox_VERSION_PATCH << std::endl;
+}
+
+#endif //CONFIG_H_IN

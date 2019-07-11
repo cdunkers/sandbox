@@ -5,6 +5,7 @@
 int main()
 {
     PrintVersion();
+    int* Something = new int(42);
     std::cout << "Hello, world!" << std::endl;
 }
 
