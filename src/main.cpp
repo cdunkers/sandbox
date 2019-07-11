@@ -1,9 +1,10 @@
 // Example program
 #include <iostream>
-#include <string>
+#include "Config.h"
 
 int main()
 {
-  std::cout << "Hello, world!" << std::endl;
+    PrintVersion();
+    std::cout << "Hello, world!" << std::endl;
 }
 
