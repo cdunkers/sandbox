@@ -1,6 +1,4 @@
 ---
-name: 'Task'
-about: 'Describe a piece of work '
 title: "task: "
 labels: ''
 assignees: ''
