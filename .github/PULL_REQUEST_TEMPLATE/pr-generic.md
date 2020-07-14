@@ -1,6 +1,6 @@
 ---
-name: 'PR'
-about: 'Generic PR template'
+name: PR
+about: Generic PR template
 title: "type(<scope>): <Write a short, description of the change> "
 labels: ''
 assignees: ''
