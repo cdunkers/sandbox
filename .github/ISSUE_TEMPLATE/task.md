@@ -4,10 +4,10 @@ about: 'Describe a piece of work '
 title: "task: "
 labels: ''
 assignees: ''
-projects: 'https://github.com/users/cdunkers/projects/1'
 
 ---
 
+https://github.com/users/cdunkers/projects/1
 **What needs to be done?**
 A clear and concise description of what needs to be done. Ex. The subrepo needs to be updated
 
