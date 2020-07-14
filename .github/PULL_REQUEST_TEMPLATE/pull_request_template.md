@@ -4,6 +4,7 @@ about: Generic PR template
 title: "type(<scope>): <Write a short, description of the change> "
 labels: ''
 assignees: ''
+projects: https://github.com/orgs/carnegierobotics/projects/5
 
 ---
 

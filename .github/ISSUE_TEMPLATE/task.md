@@ -4,6 +4,7 @@ about: 'Describe a piece of work '
 title: "task: "
 labels: ''
 assignees: ''
+projects: https://github.com/orgs/carnegierobotics/projects/5
 
 ---
 

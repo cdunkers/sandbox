@@ -4,6 +4,7 @@ about: Create a report to help us improve
 title: "bug(<version>): <short description here>"
 labels: 'bug'
 assignees: ''
+projects: https://github.com/orgs/carnegierobotics/projects/5
 
 ---
 
