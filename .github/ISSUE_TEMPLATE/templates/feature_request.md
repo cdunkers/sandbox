@@ -1,8 +1,9 @@
 ---
+name: Feature request
+about: Suggest an idea for this project
 title: "feat: <feature description>"
 labels: 'enhancement'
 assignees: ''
-projects: https://github.com/users/cdunkers/projects/1
 
 ---
 
