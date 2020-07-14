@@ -1,12 +1,3 @@
----
-name: Feature request
-about: Suggest an idea for this project
-title: "feat: <feature description>"
-labels: 'enhancement'
-assignees: ''
-
----
-
 **Problem**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 

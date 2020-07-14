@@ -1,12 +1,3 @@
----
-name: 'Task'
-about: 'Describe a piece of work '
-title: "task: "
-labels: ''
-assignees: ''
-
----
-
 **What needs to be done?**
 A clear and concise description of what needs to be done. Ex. The subrepo needs to be updated
 
