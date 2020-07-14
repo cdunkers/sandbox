@@ -4,7 +4,7 @@ about: Suggest an idea for this project
 title: "feat: <feature description>"
 labels: 'enhancement'
 assignees: ''
-projects: https://github.com/orgs/carnegierobotics/projects/5
+projects: https://github.com/users/cdunkers/projects/1
 
 ---
 
