@@ -1,0 +1,20 @@
+name: PR Checker
+
+on: 
+    pull_request:
+        types: [edited, synchronize, opened, reopened]
+
+jobs:
+    pr-checker:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Lint Title
+              uses: morrisoncole/pr-lint-action@v1.1.1
+              with:
+                title-regex: '(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\(?(\S)*\)?): *\w+'
+                on-failed-regex-comment: "Build Error! PR title did not match the regex. Please update the title to match the following regex: `%regex%`!"
+                repo-token: "${{ secrets.GITHUB_TOKEN }}"
+            - name: Verify Linked Issue
+              uses: hattan/verify-linked-issue-action@v1.1.1
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
