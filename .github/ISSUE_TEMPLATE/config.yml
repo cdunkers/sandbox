@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Bug Report 
-    url: https://github.com/cdunkers/sandbox/issues/new?template=bug_report.md&projects=cdunkers/1&labels=bug&title="bug:"
+    url: https://github.com/cdunkers/sandbox/issues/new?title=bug:&template=bug_report.md&projects=cdunkers/1&labels=bug
     about: Create a report to help us improve
   - name: Feature Request
     url: https://github.com/cdunkers/sandbox/issues/new?template=feature_request.md&projects=cdunkers/1&labels=enhancement
